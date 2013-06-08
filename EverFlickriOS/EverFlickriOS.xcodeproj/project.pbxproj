@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24F843AC1D3F49278BA9E36C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7FE7A5766641668EFEDA12 /* libPods.a */; };
+		396EE78D17624F110025BB17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396EE78C17624F110025BB17 /* UIKit.framework */; };
+		396EE78F17624F110025BB17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396EE78E17624F110025BB17 /* Foundation.framework */; };
+		396EE79117624F110025BB17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396EE79017624F110025BB17 /* CoreGraphics.framework */; };
+		396EE79717624F110025BB17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 396EE79517624F110025BB17 /* InfoPlist.strings */; };
+		396EE79917624F110025BB17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 396EE79817624F110025BB17 /* main.m */; };
+		396EE79D17624F110025BB17 /* EFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 396EE79C17624F110025BB17 /* EFAppDelegate.m */; };
+		396EE79F17624F110025BB17 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 396EE79E17624F110025BB17 /* Default.png */; };
+		396EE7A117624F110025BB17 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 396EE7A017624F110025BB17 /* Default@2x.png */; };
+		396EE7A317624F110025BB17 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 396EE7A217624F110025BB17 /* Default-568h@2x.png */; };
+		396EE7AC17625D6B0025BB17 /* EFGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396EE7AA17625D6B0025BB17 /* EFGalleryViewController.m */; };
+		396EE7B0176261D50025BB17 /* EFRestFlickr.m in Sources */ = {isa = PBXBuildFile; fileRef = 396EE7AF176261D50025BB17 /* EFRestFlickr.m */; };
+		396EE7B517628A0F0025BB17 /* EFImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 396EE7B417628A0F0025BB17 /* EFImageViewCell.m */; };
+		396EE7BE1762AFD60025BB17 /* EFDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 396EE7BD1762AFD60025BB17 /* EFDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		396EE78917624F110025BB17 /* EverFlickriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverFlickriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		396EE78C17624F110025BB17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		396EE78E17624F110025BB17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		396EE79017624F110025BB17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		396EE79417624F110025BB17 /* EverFlickriOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EverFlickriOS-Info.plist"; sourceTree = "<group>"; };
+		396EE79617624F110025BB17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		396EE79817624F110025BB17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		396EE79A17624F110025BB17 /* EverFlickriOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EverFlickriOS-Prefix.pch"; sourceTree = "<group>"; };
+		396EE79B17624F110025BB17 /* EFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EFAppDelegate.h; sourceTree = "<group>"; };
+		396EE79C17624F110025BB17 /* EFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EFAppDelegate.m; sourceTree = "<group>"; };
+		396EE79E17624F110025BB17 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		396EE7A017624F110025BB17 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		396EE7A217624F110025BB17 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		396EE7A917625D6B0025BB17 /* EFGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFGalleryViewController.h; sourceTree = "<group>"; };
+		396EE7AA17625D6B0025BB17 /* EFGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFGalleryViewController.m; sourceTree = "<group>"; };
+		396EE7AE176261D50025BB17 /* EFRestFlickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFRestFlickr.h; sourceTree = "<group>"; };
+		396EE7AF176261D50025BB17 /* EFRestFlickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFRestFlickr.m; sourceTree = "<group>"; };
+		396EE7B317628A0F0025BB17 /* EFImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFImageViewCell.h; sourceTree = "<group>"; };
+		396EE7B417628A0F0025BB17 /* EFImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFImageViewCell.m; sourceTree = "<group>"; };
+		396EE7BC1762AFD50025BB17 /* EFDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFDetailViewController.h; sourceTree = "<group>"; };
+		396EE7BD1762AFD60025BB17 /* EFDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFDetailViewController.m; sourceTree = "<group>"; };
+		62A1B14EE1ED46348030E531 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		BE7FE7A5766641668EFEDA12 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396EE78617624F110025BB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396EE78D17624F110025BB17 /* UIKit.framework in Frameworks */,
+				396EE78F17624F110025BB17 /* Foundation.framework in Frameworks */,
+				396EE79117624F110025BB17 /* CoreGraphics.framework in Frameworks */,
+				24F843AC1D3F49278BA9E36C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		396EE78017624F110025BB17 = {
+			isa = PBXGroup;
+			children = (
+				396EE79217624F110025BB17 /* EverFlickriOS */,
+				396EE78B17624F110025BB17 /* Frameworks */,
+				396EE78A17624F110025BB17 /* Products */,
+				62A1B14EE1ED46348030E531 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		396EE78A17624F110025BB17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				396EE78917624F110025BB17 /* EverFlickriOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		396EE78B17624F110025BB17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				396EE78C17624F110025BB17 /* UIKit.framework */,
+				396EE78E17624F110025BB17 /* Foundation.framework */,
+				396EE79017624F110025BB17 /* CoreGraphics.framework */,
+				BE7FE7A5766641668EFEDA12 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		396EE79217624F110025BB17 /* EverFlickriOS */ = {
+			isa = PBXGroup;
+			children = (
+				396EE79317624F110025BB17 /* Supporting Files */,
+				396EE79B17624F110025BB17 /* EFAppDelegate.h */,
+				396EE79C17624F110025BB17 /* EFAppDelegate.m */,
+				396EE7A917625D6B0025BB17 /* EFGalleryViewController.h */,
+				396EE7AA17625D6B0025BB17 /* EFGalleryViewController.m */,
+				396EE7AE176261D50025BB17 /* EFRestFlickr.h */,
+				396EE7AF176261D50025BB17 /* EFRestFlickr.m */,
+				396EE7B317628A0F0025BB17 /* EFImageViewCell.h */,
+				396EE7B417628A0F0025BB17 /* EFImageViewCell.m */,
+				396EE7BC1762AFD50025BB17 /* EFDetailViewController.h */,
+				396EE7BD1762AFD60025BB17 /* EFDetailViewController.m */,
+			);
+			path = EverFlickriOS;
+			sourceTree = "<group>";
+		};
+		396EE79317624F110025BB17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				396EE79417624F110025BB17 /* EverFlickriOS-Info.plist */,
+				396EE79517624F110025BB17 /* InfoPlist.strings */,
+				396EE79817624F110025BB17 /* main.m */,
+				396EE79A17624F110025BB17 /* EverFlickriOS-Prefix.pch */,
+				396EE79E17624F110025BB17 /* Default.png */,
+				396EE7A017624F110025BB17 /* Default@2x.png */,
+				396EE7A217624F110025BB17 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		396EE78817624F110025BB17 /* EverFlickriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396EE7A617624F110025BB17 /* Build configuration list for PBXNativeTarget "EverFlickriOS" */;
+			buildPhases = (
+				1374D2AD504847D7914D5FB9 /* Check Pods Manifest.lock */,
+				396EE78517624F110025BB17 /* Sources */,
+				396EE78617624F110025BB17 /* Frameworks */,
+				396EE78717624F110025BB17 /* Resources */,
+				2D5E1960B7B14D45AD93BE09 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EverFlickriOS;
+			productName = EverFlickriOS;
+			productReference = 396EE78917624F110025BB17 /* EverFlickriOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		396EE78117624F110025BB17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "EverFlickr Co.";
+			};
+			buildConfigurationList = 396EE78417624F110025BB17 /* Build configuration list for PBXProject "EverFlickriOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 396EE78017624F110025BB17;
+			productRefGroup = 396EE78A17624F110025BB17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				396EE78817624F110025BB17 /* EverFlickriOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		396EE78717624F110025BB17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396EE79717624F110025BB17 /* InfoPlist.strings in Resources */,
+				396EE79F17624F110025BB17 /* Default.png in Resources */,
+				396EE7A117624F110025BB17 /* Default@2x.png in Resources */,
+				396EE7A317624F110025BB17 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1374D2AD504847D7914D5FB9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		2D5E1960B7B14D45AD93BE09 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		396EE78517624F110025BB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396EE79917624F110025BB17 /* main.m in Sources */,
+				396EE79D17624F110025BB17 /* EFAppDelegate.m in Sources */,
+				396EE7AC17625D6B0025BB17 /* EFGalleryViewController.m in Sources */,
+				396EE7B0176261D50025BB17 /* EFRestFlickr.m in Sources */,
+				396EE7B517628A0F0025BB17 /* EFImageViewCell.m in Sources */,
+				396EE7BE1762AFD60025BB17 /* EFDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		396EE79517624F110025BB17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396EE79617624F110025BB17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		396EE7A417624F110025BB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		396EE7A517624F110025BB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		396EE7A717624F110025BB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A1B14EE1ED46348030E531 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EverFlickriOS/EverFlickriOS-Prefix.pch";
+				INFOPLIST_FILE = "EverFlickriOS/EverFlickriOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		396EE7A817624F110025BB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62A1B14EE1ED46348030E531 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EverFlickriOS/EverFlickriOS-Prefix.pch";
+				INFOPLIST_FILE = "EverFlickriOS/EverFlickriOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		396EE78417624F110025BB17 /* Build configuration list for PBXProject "EverFlickriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396EE7A417624F110025BB17 /* Debug */,
+				396EE7A517624F110025BB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396EE7A617624F110025BB17 /* Build configuration list for PBXNativeTarget "EverFlickriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396EE7A717624F110025BB17 /* Debug */,
+				396EE7A817624F110025BB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 396EE78117624F110025BB17 /* Project object */;
+}
